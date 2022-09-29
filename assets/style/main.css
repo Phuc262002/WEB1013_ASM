@@ -663,7 +663,6 @@ form {
 	position: absolute;
 	top: 50%;
 	left: 7%;
-	-webkit-transform: translateY(-50%);
 	transform: translateY(-50%);
 }
 
@@ -905,10 +904,9 @@ form {
 	font-size: 1.7rem;
 }
 
-@media (min-width: 762px) {
-	.popular-content__items button {
-		grid-column: 1 / 4;
-	}
+.popular-content button {
+	width: 90%;
+	display: block;
 }
 
 .about-container {
