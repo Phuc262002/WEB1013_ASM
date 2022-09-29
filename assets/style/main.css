@@ -639,13 +639,6 @@ form {
 	background-color: var(--orange);
 }
 
-.footer-right {
-	font-size: 1.5rem;
-	line-height: 4rem;
-	text-align: center;
-	color: var(--dark-blue);
-}
-
 .banner-popular {
 	padding: 0 9% 2rem 9%;
 	background-color: #eee;
