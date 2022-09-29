@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOODCODE - Ăn ngon mỗi ngày</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style/base.css">
+    <link rel="stylesheet" href="./assets/style/main.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <a href="index.html" class="navbar__logo">
+                <img src="./assets/img/logo/logo-navbar.svg" alt="" class="navbar__logo-image" />
+                FOOD<span>COOD</span>
+            </a>
+            <ul class="navbar__menu">
+                <li class="navbar__menu-item">
+                    <a href="#" class="menu-link active">Home</a>
+                </li>
+                <li class="navbar__menu-item">
+                    <a href="popular.html" class="menu-link">Phổ biến</a>
+                </li>
+                <li class="navbar__menu-item">
+                    <a href="about.html" class="menu-link">About</a>
+                </li>
+                <li class="navbar__menu-item">
+                    <a href="payment.html" class="menu-link">Thanh toán</a>
+                </li>
+            </ul>
+            <div class="navbar__icons">
+                <select class="navbar__select">
+                    <option>TP HCM</option>
+                    <option>Hà Nội</option>
+                    <option>Cần Thơ</option>
+                    <option>Đà Nẵng</option>
+                    <option>Quy Nhơn</option>
+                </select>
+                <ul>
+                    <li><i class="fas fa-search navbar__icons-item"></i></li>
+                    <li><a href="payment.html" class="fas fa-shopping-cart navbar__icons-item"></a></li>
+                    <li><a href="login.html" class="fa-solid fa-user navbar__icons-item"></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="banner">
+        <div class="swiper-container home-slider">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Món ăn nổi bật</span>
+                        <h3>Pizza</h3>
+                        <p>Thưởng Thức Pizza Nóng Hổi Cùng Món Ăn Kèm Siêu Ngon Và Đồ Uống Mát Lạnh Chỉ Từ 199k.</p>
+                        <a href="#" class="btn">Đặt ngay</a>
+                    </div>
+                    <div class="image">
+                        <img src="./assets/img/home-img-3.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Món ăn nổi bật</span>
+                        <h3>Gà nướng</h3>
+                        <p>Chỉ cần nghe đến tên, chiếc bụng bé xinh của bạn bỗng đói cồn cào bởi độ ngon của món ăn này.</p>
+                        <a href="#" class="btn">Đặt ngay</a>
+                    </div>
+                    <div class="image">
+                        <img src="./assets/img/home-img-2.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Món ăn nổi bật</span>
+                        <h3>Mì Spaghetti</h3>
+                        <p>Món mì Ý hay còn gọi là spaghetti là món ăn ngon và phổ biến, dùng kèm với hỗn hợp sốt cà chua và thịt bò bằm có nguồn gốc từ Italia.</p>
+                        <a href="#" class="btn">Đặt ngay</a>
+                    </div>
+                    <div class="image">
+                        <img src="./assets/img/home-img-1.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <div class="title">
+        <h1>Voucher FOODCODE hôm nay ở <span>Khu công viên phần mềm Quang Trung</span></h1>
+    </div>
+    <div class="cartlist">
+        <div class="carlist__item">
+            <img src="./assets/img/sushi.jpg" alt="img-food">
+            <div class="carlist__content">
+                <h1>Sushi VinRoll - Vinhomes GrandPark</h1>
+                <div class="carlist__content-detail">
+                    <i class="fa-solid fa-tag carlist__content-icon"></i>
+                    <p>Món khác, Sushi, rau trộn</p>
+                </div>
+                <div class="carlist__content-detail">
+                    <div class="carlist__content-detail carlist__content-detail--star">
+                        <i class="fa-solid fa-star  carlist__content-icon carlist__content-icon--star"></i>
+                        <p>4.8</p>
+                    </div>
+                    <div class="carlist__content-detail carlist__content-detail--time">
+                        <i class="fa-regular fa-clock carlist__content-icon carlist__content-icon--time"></i>
+                        <p>30 phút . 4,1km</p>
+                    </div>
+                </div>
+                <div class="carlist__content-detail">
+                    <i class="fa-solid fa-tags carlist__content-icon"></i>
+                    <p>Nhập SUSHI để giảm thêm 9k</p>
+                </div>
+                <div class="carlist__content-detail carlist__content-detail--price">
+                    <h1>109.000 đ</h1>
+                    <i class="fa-solid fa-circle-plus carlist__content-icon--plus"></i>
+                </div>
+            </div>
+        </div>
+        <div class="carlist__item">
+            <img src="./assets/img/sushi.jpg" alt="img-food">
+            <div class="carlist__content">
+                <h1>Sushi VinRoll - Vinhomes GrandPark</h1>
+                <div class="carlist__content-detail">
+                    <i class="fa-solid fa-tag carlist__content-icon"></i>
+                    <p>Món khác, Sushi, rau trộn</p>
+                </div>
+                <div class="carlist__content-detail">
+                    <div class="carlist__content-detail carlist__content-detail--star">
+                        <i class="fa-solid fa-star  carlist__content-icon carlist__content-icon--star"></i>
+                        <p>4.8</p>
+                    </div>
+                    <div class="carlist__content-detail carlist__content-detail--time">
+                        <i class="fa-regular fa-clock carlist__content-icon carlist__content-icon--time"></i>
+                        <p>30 phút . 4,1km</p>
+                    </div>
+                </div>
+                <div class="carlist__content-detail">
+                    <i class="fa-solid fa-tags carlist__content-icon"></i>
+                    <p>Nhập SUSHI để giảm thêm 9k</p>
+                </div>
+                <div class="carlist__content-detail carlist__content-detail--price">
+                    <h1>109.000 đ</h1>
+                    <i class="fa-solid fa-circle-plus carlist__content-icon--plus"></i>
+                </div>
+            </div>
+        </div>
+        <div class="carlist__item">
+            <img src="./assets/img/sushi.jpg" alt="img-food">
+            <div class="carlist__content">
+                <h1>Sushi VinRoll - Vinhomes GrandPark</h1>
+                <div class="carlist__content-detail">
+                    <i class="fa-solid fa-tag carlist__content-icon"></i>
+                    <p>Món khác, Sushi, rau trộn</p>
+                </div>
+                <div class="carlist__content-detail">
+                    <div class="carlist__content-detail carlist__content-detail--star">
+                        <i class="fa-solid fa-star  carlist__content-icon carlist__content-icon--star"></i>
+                        <p>4.8</p>
+                    </div>
+                    <div class="carlist__content-detail carlist__content-detail--time">
+                        <i class="fa-regular fa-clock carlist__content-icon carlist__content-icon--time"></i>
+                        <p>30 phút . 4,1km</p>
+                    </div>
+                </div>
+                <div class="carlist__content-detail">
+                    <i class="fa-solid fa-tags carlist__content-icon"></i>
+                    <p>Nhập SUSHI để giảm thêm 9k</p>
+                </div>
+                <div class="carlist__content-detail carlist__content-detail--price">
+                    <h1>109.000 đ</h1>
+                    <i class="fa-solid fa-circle-plus carlist__content-icon--plus"></i>
+                </div>
+            </div>
+        </div>
+        <div class="carlist__item">
+            <img src="./assets/img/sushi.jpg" alt="img-food">
+            <div class="carlist__content">
+                <h1>Sushi VinRoll - Vinhomes GrandPark</h1>
+                <div class="carlist__content-detail">
+                    <i class="fa-solid fa-tag carlist__content-icon"></i>
+                    <p>Món khác, Sushi, rau trộn</p>
+                </div>
+                <div class="carlist__content-detail">
+                    <div class="carlist__content-detail carlist__content-detail--star">
+                        <i class="fa-solid fa-star  carlist__content-icon carlist__content-icon--star"></i>
+                        <p>4.8</p>
+                    </div>
+                    <div class="carlist__content-detail carlist__content-detail--time">
+                        <i class="fa-regular fa-clock carlist__content-icon carlist__content-icon--time"></i>
+                        <p>30 phút . 4,1km</p>
+                    </div>
+                </div>
+                <div class="carlist__content-detail">
+                    <i class="fa-solid fa-tags carlist__content-icon"></i>
+                    <p>Nhập SUSHI để giảm thêm 9k</p>
+                </div>
+                <div class="carlist__content-detail carlist__content-detail--price">
+                    <h1>109.000 đ</h1>
+                    <i class="fa-solid fa-circle-plus carlist__content-icon--plus"></i>
+                </div>
+            </div>
+        </div>
+        <div class="carlist__item">
+            <img src="./assets/img/sushi.jpg" alt="img-food">
+            <div class="carlist__content">
+                <h1>Sushi VinRoll - Vinhomes GrandPark</h1>
+                <div class="carlist__content-detail">
+                    <i class="fa-solid fa-tag carlist__content-icon"></i>
+                    <p>Món khác, Sushi, rau trộn</p>
+                </div>
+                <div class="carlist__content-detail">
+                    <div class="carlist__content-detail carlist__content-detail--star">
+                        <i class="fa-solid fa-star  carlist__content-icon carlist__content-icon--star"></i>
+                        <p>4.8</p>
+                    </div>
+                    <div class="carlist__content-detail carlist__content-detail--time">
+                        <i class="fa-regular fa-clock carlist__content-icon carlist__content-icon--time"></i>
+                        <p>30 phút . 4,1km</p>
+                    </div>
+                </div>
+                <div class="carlist__content-detail">
+                    <i class="fa-solid fa-tags carlist__content-icon"></i>
+                    <p>Nhập SUSHI để giảm thêm 9k</p>
+                </div>
+                <div class="carlist__content-detail carlist__content-detail--price">
+                    <h1>109.000 đ</h1>
+                    <i class="fa-solid fa-circle-plus carlist__content-icon--plus"></i>
+                </div>
+            </div>
+        </div>
+        <div class="carlist__item">
+            <img src="./assets/img/sushi.jpg" alt="img-food">
+            <div class="carlist__content">
+                <h1>Sushi VinRoll - Vinhomes GrandPark</h1>
+                <div class="carlist__content-detail">
+                    <i class="fa-solid fa-tag carlist__content-icon"></i>
+                    <p>Món khác, Sushi, rau trộn</p>
+                </div>
+                <div class="carlist__content-detail">
+                    <div class="carlist__content-detail carlist__content-detail--star">
+                        <i class="fa-solid fa-star  carlist__content-icon carlist__content-icon--star"></i>
+                        <p>4.8</p>
+                    </div>
+                    <div class="carlist__content-detail carlist__content-detail--time">
+                        <i class="fa-regular fa-clock carlist__content-icon carlist__content-icon--time"></i>
+                        <p>30 phút . 4,1km</p>
+                    </div>
+                </div>
+                <div class="carlist__content-detail">
+                    <i class="fa-solid fa-tags carlist__content-icon"></i>
+                    <p>Nhập SUSHI để giảm thêm 9k</p>
+                </div>
+                <div class="carlist__content-detail carlist__content-detail--price">
+                    <h1>109.000 đ</h1>
+                    <i class="fa-solid fa-circle-plus carlist__content-icon--plus"></i>
+                </div>
+            </div>
+        </div>
+        <button class="btn btn-load">
+            Xem thêm sản phẩm ưu đãi
+        </button>
+    </div>
+
+    </div>
+    <div class="list-topic">
+        <div class="title">
+            <h1 class="list-topic-title">Mọi người cũng tiềm kiếm</h1>
+        </div>
+        <div class="list-topic__items">
+            <div class="list-topic__item">
+                <img src="./assets/img/topic-1.jpeg" alt="">
+                <h1 class="list-topic-title">Trà sữa</h1>
+            </div>
+            <div class="list-topic__item">
+                <img src="./assets/img/topic-2.jpeg" alt="">
+                <h1 class="list-topic-title">Cà phê</h1>
+            </div>
+            <div class="list-topic__item">
+                <img src="./assets/img/topic-3.jpeg" alt="">
+                <h1 class="list-topic-title">Cơm tấm</h1>
+            </div>
+            <div class="list-topic__item">
+                <img src="./assets/img/topic-4.jpeg" alt="">
+                <h1 class="list-topic-title">Bánh mì</h1>
+            </div>
+            <div class="list-topic__item">
+                <img src="./assets/img/topic-1.jpeg" alt="">
+                <h1 class="list-topic-title">Trà sữa</h1>
+            </div>
+            <div class="list-topic__item">
+                <img src="./assets/img/topic-2.jpeg" alt="">
+                <h1 class="list-topic-title">Cà phê</h1>
+            </div>
+            <div class="list-topic__item">
+                <img src="./assets/img/topic-3.jpeg" alt="">
+                <h1 class="list-topic-title">Cơm tấm</h1>
+            </div>
+            <div class="list-topic__item">
+                <img src="./assets/img/topic-4.jpeg" alt="">
+                <h1 class="list-topic-title">Bánh mì</h1>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-container">
+            <div class="infomation">
+                <img src="./assets/img/logo/footer-logo.svg" alt="">
+                <div class="infomation-form infomation-phone">
+                    <p>
+                        <i class="fa-solid fa-phone"></i> 0123456789
+                    </p>
+                </div>
+                <div class="infomation-form infomation-email">
+                    <p>
+                        <i class="fa-solid fa-envelope"></i>
+                        phucnhps26324@fpt.edu.vn
+                    </p>
+                </div>
+                <div class="infomation-form infomation-address">
+                    <p>
+                        <i class="fa-solid fa-location-dot"></i>
+                        Thành phố Hồ Chí Minh
+                    </p>
+                </div>
+            </div>
+            <div class="question">
+                <ul>
+                    <li>
+                        <a href="">Về FOODCODE</a>
+                    </li>
+                    <li>
+                        <a href="">Trung tâm hỗ trợ</a>
+                    </li>
+                    <li>
+                        <a href="">Câu hỏi thường gặp</a>
+                    </li>
+
+                    <li>
+                        <a href="">Điều khoản sử dụng</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="contact">
+                <h1>Liên hệ</h1>
+                <ul class="contact-icons">
+                    <li>
+                        <a href="https://www.facebook.com/profile.php?id=100008298095247"><i class="fa-brands fa-square-facebook contact-icon"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/hoangphuc_2610/"><i class="fa-brands fa-instagram contact-icon"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><img class="contact-icon" src="./assets/img/logo/logo-zalo.png" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p>&copy; 2022 FoodCode</p>
+        </div>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

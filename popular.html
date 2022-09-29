@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOODCODE - Ăn ngon mỗi ngày</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style/base.css">
+    <link rel="stylesheet" href="./assets/style/main.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <a href="index.html" class="navbar__logo">
+                <img src="./assets/img/logo/logo-navbar.svg" alt="" class="navbar__logo-image" />
+                FOOD<span>COOD</span>
+            </a>
+            <ul class="navbar__menu">
+                <li class="navbar__menu-item">
+                    <a href="index.html" class="menu-link ">Home</a>
+                </li>
+                <li class="navbar__menu-item">
+                    <a href="#" class="menu-link active">Phổ biến</a>
+                </li>
+                <li class="navbar__menu-item">
+                    <a href="about.html" class="menu-link">About</a>
+                </li>
+                <li class="navbar__menu-item">
+                    <a href="payment.html" class="menu-link">Thanh toán</a>
+                </li>
+            </ul>
+            <div class="navbar__icons">
+                <select class="navbar__select">
+                    <option>TP HCM</option>
+                    <option>Hà Nội</option>
+                    <option>Cần Thơ</option>
+                    <option>Đà Nẵng</option>
+                    <option>Quy Nhơn</option>
+                </select>
+                <ul>
+                    <li><i class="fas fa-search navbar__icons-item"></i></li>
+                    <li><a href="payment.html" class="fas fa-shopping-cart navbar__icons-item"></a></li>
+                    <li><a href="login.html" class="fa-solid fa-user navbar__icons-item"></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="banner-popular">
+        <div class="banner-main">
+            <div class="banner-main__content">
+                <span>COMBO HOT</span>
+                <h3>burger</h3>
+                <p>với cocacola và khoai tây chiên</p>
+                <a href="#" class="btn">Đặt ngay</a>
+            </div>
+        </div>
+        <div class="banner-sub">
+            <div class="banner-sub__item">
+                <img src="./assets/img/sub-banner.png" alt="">
+                <div class="banner-sub__item-content">
+                    <span>Giảm giá đặt biệt</span>
+                    <h3>Lên đến 25%</h3>
+                    <a href="#" class="btn">Đặt ngay</a>
+                </div>
+            </div>
+            <div class="banner-sub__item">
+                <img src="./assets/img/sub-banner.png" alt="">
+                <div class="banner-sub__item-content">
+                    <span>Giảm giá đặt biệt</span>
+                    <h3>Lên đến 25%</h3>
+                    <a href="#" class="btn">Đặt ngay</a>
+                </div>
+            </div>
+            <div class="banner-sub__item">
+                <img src="./assets/img/sub-banner.png" alt="">
+                <div class="banner-sub__item-content">
+                    <span>Giảm giá đặt biệt</span>
+                    <h3>Lên đến 25%</h3>
+                    <a href="#" class="btn">Đặt ngay</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="food-feedback">
+        <div class="food-feedback-link">
+            <img src="./assets/img/home-img-3.png" alt="">
+            <div class="food-feedback-link--a  active">
+                <h1>GẦN ĐÂY</h1>
+            </div>
+        </div>
+        <div class="food-feedback-link">
+            <img src="./assets/img/home-img-3.png" alt="">
+            <div class="food-feedback-link--a">
+                <h1>BÁN CHẠY</h1>
+            </div>
+        </div>
+        <div class="food-feedback-link">
+            <img src="./assets/img/home-img-3.png" alt="">
+            <div class="food-feedback-link--a">
+                <h1>ĐÁNH GIÁ</h1>
+            </div>
+        </div>
+        <div class="food-feedback-link">
+            <img src="./assets/img/home-img-3.png" alt="">
+            <div class="food-feedback-link--a">
+                <h1>GIAO NHANH</h1>
+            </div>
+        </div>
+    </div>
+    <div class="popular-content">
+        <div class="title">
+            <h1 class="list-topic-title">CƠM</h1>
+        </div>
+        <div class="popular-content__items">
+            <div class="popular-content__item">
+                <div class="popular-content__item-img">
+                    <img src="./assets/img/com-ga.webp" alt="">
+                </div>
+                <div class="popular-content__item-content">
+                    <div class="popular-content__item-content--desc">
+                        <div class="popular-content__item-content--desc-detail">
+                            <h3>Cơm chiên gà xối mỡ</h3>
+                            <p>
+                                Cơm đùi gà góc tư, cà chua / dưa leo
+                            </p>
+                        </div>
+                    </div>
+                    <div class="popular-content__item-content--item">
+                        <div class="price">
+                            <h3>39.000 đ</h3>
+                        </div>
+                        <div class="plus-container">
+                            <div class="plus">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="popular-content__item">
+                <div class="popular-content__item-img">
+                    <img src="./assets/img/com-ga.webp" alt="">
+                </div>
+                <div class="popular-content__item-content">
+                    <div class="popular-content__item-content--desc">
+                        <div class="popular-content__item-content--desc-detail">
+                            <h3>Cơm chiên gà xối mỡ</h3>
+                            <p>
+                                Cơm đùi gà góc tư, cà chua / dưa leo
+                            </p>
+                        </div>
+                    </div>
+                    <div class="popular-content__item-content--item">
+                        <div class="price">
+                            <h3>39.000 đ</h3>
+                        </div>
+                        <div class="plus-container">
+                            <div class="plus">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="popular-content__item">
+                <div class="popular-content__item-img">
+                    <img src="./assets/img/com-ga.webp" alt="">
+                </div>
+                <div class="popular-content__item-content">
+                    <div class="popular-content__item-content--desc">
+                        <div class="popular-content__item-content--desc-detail">
+                            <h3>Cơm chiên gà xối mỡ</h3>
+                            <p>
+                                Cơm đùi gà góc tư, cà chua / dưa leo
+                            </p>
+                        </div>
+                    </div>
+                    <div class="popular-content__item-content--item">
+                        <div class="price">
+                            <h3>39.000 đ</h3>
+                        </div>
+                        <div class="plus-container">
+                            <div class="plus">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="popular-content__item">
+                <div class="popular-content__item-img">
+                    <img src="./assets/img/com-ga.webp" alt="">
+                </div>
+                <div class="popular-content__item-content">
+                    <div class="popular-content__item-content--desc">
+                        <div class="popular-content__item-content--desc-detail">
+                            <h3>Cơm chiên gà xối mỡ</h3>
+                            <p>
+                                Cơm đùi gà góc tư, cà chua / dưa leo
+                            </p>
+                        </div>
+                    </div>
+                    <div class="popular-content__item-content--item">
+                        <div class="price">
+                            <h3>39.000 đ</h3>
+                        </div>
+                        <div class="plus-container">
+                            <div class="plus">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="popular-content__item">
+                <div class="popular-content__item-img">
+                    <img src="./assets/img/com-ga.webp" alt="">
+                </div>
+                <div class="popular-content__item-content">
+                    <div class="popular-content__item-content--desc">
+                        <div class="popular-content__item-content--desc-detail">
+                            <h3>Cơm chiên gà xối mỡ</h3>
+                            <p>
+                                Cơm đùi gà góc tư, cà chua / dưa leo
+                            </p>
+                        </div>
+                    </div>
+                    <div class="popular-content__item-content--item">
+                        <div class="price">
+                            <h3>39.000 đ</h3>
+                        </div>
+                        <div class="plus-container">
+                            <div class="plus">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="popular-content__item">
+                <div class="popular-content__item-img">
+                    <img src="./assets/img/com-ga.webp" alt="">
+                </div>
+                <div class="popular-content__item-content">
+                    <div class="popular-content__item-content--desc">
+                        <div class="popular-content__item-content--desc-detail">
+                            <h3>Cơm chiên gà xối mỡ</h3>
+                            <p>
+                                Cơm đùi gà góc tư, cà chua / dưa leo
+                            </p>
+                        </div>
+                    </div>
+                    <div class="popular-content__item-content--item">
+                        <div class="price">
+                            <h3>39.000 đ</h3>
+                        </div>
+                        <div class="plus-container">
+                            <div class="plus">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-load">
+                Xem thêm sản phẩm gần đây
+            </button>
+        </div>
+    </div>
+    <div class="popular-content">
+        <div class="title">
+            <h1 class="list-topic-title">MÌ</h1>
+        </div>
+        <div class="popular-content__items">
+            <div class="popular-content__item">
+                <div class="popular-content__item-img">
+                    <img src="./assets/img/bun-rieu.webp" alt="">
+                </div>
+                <div class="popular-content__item-content">
+                    <div class="popular-content__item-content--desc">
+                        <div class="popular-content__item-content--desc-detail">
+                            <h3>1 ✕ Bún riêu giò, 1 ✕ Trà tắc khổng lồ</h3>
+                            <p>
+                                Tiết kiệm hơn, hãy so giá
+                            </p>
+                        </div>
+                    </div>
+                    <div class="popular-content__item-content--item">
+                        <div class="price">
+                            <h3>65.000 đ</h3>
+                        </div>
+                        <div class="plus-container">
+                            <div class="plus">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="popular-content__item">
+                <div class="popular-content__item-img">
+                    <img src="./assets/img/bun-rieu.webp" alt="">
+                </div>
+                <div class="popular-content__item-content">
+                    <div class="popular-content__item-content--desc">
+                        <div class="popular-content__item-content--desc-detail">
+                            <h3>1 ✕ Bún riêu giò, 1 ✕ Trà tắc khổng lồ</h3>
+                            <p>
+                                Tiết kiệm hơn, hãy so giá
+                            </p>
+                        </div>
+                    </div>
+                    <div class="popular-content__item-content--item">
+                        <div class="price">
+                            <h3>65.000 đ</h3>
+                        </div>
+                        <div class="plus-container">
+                            <div class="plus">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="popular-content__item">
+                <div class="popular-content__item-img">
+                    <img src="./assets/img/bun-rieu.webp" alt="">
+                </div>
+                <div class="popular-content__item-content">
+                    <div class="popular-content__item-content--desc">
+                        <div class="popular-content__item-content--desc-detail">
+                            <h3>1 ✕ Bún riêu giò, 1 ✕ Trà tắc khổng lồ</h3>
+                            <p>
+                                Tiết kiệm hơn, hãy so giá
+                            </p>
+                        </div>
+                    </div>
+                    <div class="popular-content__item-content--item">
+                        <div class="price">
+                            <h3>65.000 đ</h3>
+                        </div>
+                        <div class="plus-container">
+                            <div class="plus">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="popular-content__item">
+                <div class="popular-content__item-img">
+                    <img src="./assets/img/bun-rieu.webp" alt="">
+                </div>
+                <div class="popular-content__item-content">
+                    <div class="popular-content__item-content--desc">
+                        <div class="popular-content__item-content--desc-detail">
+                            <h3>1 ✕ Bún riêu giò, 1 ✕ Trà tắc khổng lồ</h3>
+                            <p>
+                                Tiết kiệm hơn, hãy so giá
+                            </p>
+                        </div>
+                    </div>
+                    <div class="popular-content__item-content--item">
+                        <div class="price">
+                            <h3>65.000 đ</h3>
+                        </div>
+                        <div class="plus-container">
+                            <div class="plus">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="popular-content__item">
+                <div class="popular-content__item-img">
+                    <img src="./assets/img/bun-rieu.webp" alt="">
+                </div>
+                <div class="popular-content__item-content">
+                    <div class="popular-content__item-content--desc">
+                        <div class="popular-content__item-content--desc-detail">
+                            <h3>1 ✕ Bún riêu giò, 1 ✕ Trà tắc khổng lồ</h3>
+                            <p>
+                                Tiết kiệm hơn, hãy so giá
+                            </p>
+                        </div>
+                    </div>
+                    <div class="popular-content__item-content--item">
+                        <div class="price">
+                            <h3>65.000 đ</h3>
+                        </div>
+                        <div class="plus-container">
+                            <div class="plus">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="popular-content__item">
+                <div class="popular-content__item-img">
+                    <img src="./assets/img/bun-rieu.webp" alt="">
+                </div>
+                <div class="popular-content__item-content">
+                    <div class="popular-content__item-content--desc">
+                        <div class="popular-content__item-content--desc-detail">
+                            <h3>1 ✕ Bún riêu giò, 1 ✕ Trà tắc khổng lồ</h3>
+                            <p>
+                                Tiết kiệm hơn, hãy so giá
+                            </p>
+                        </div>
+                    </div>
+                    <div class="popular-content__item-content--item">
+                        <div class="price">
+                            <h3>65.000 đ</h3>
+                        </div>
+                        <div class="plus-container">
+                            <div class="plus">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-load">
+                Xem thêm sản phẩm gần đây
+            </button>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-container">
+            <div class="infomation">
+                <img src="./assets/img/logo/footer-logo.svg" alt="">
+                <div class="infomation-form infomation-phone">
+                    <p>
+                        <i class="fa-solid fa-phone"></i> 0123456789
+                    </p>
+                </div>
+                <div class="infomation-form infomation-email">
+                    <p>
+                        <i class="fa-solid fa-envelope"></i>
+                        phucnhps26324@fpt.edu.vn
+                    </p>
+                </div>
+                <div class="infomation-form infomation-address">
+                    <p>
+                        <i class="fa-solid fa-location-dot"></i>
+                        Thành phố Hồ Chí Minh
+                    </p>
+                </div>
+            </div>
+            <div class="question">
+                <ul>
+                    <li>
+                        <a href="">Về FOODCODE</a>
+                    </li>
+                    <li>
+                        <a href="">Trung tâm hỗ trợ</a>
+                    </li>
+                    <li>
+                        <a href="">Câu hỏi thường gặp</a>
+                    </li>
+
+                    <li>
+                        <a href="">Điều khoản sử dụng</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="contact">
+                <h1>Liên hệ</h1>
+                <ul class="contact-icons">
+                    <li>
+                        <a href="https://www.facebook.com/profile.php?id=100008298095247"><i
+                                class="fa-brands fa-square-facebook contact-icon"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/hoangphuc_2610/"><i
+                                class="fa-brands fa-instagram contact-icon"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><img class="contact-icon" src="./assets/img/logo/logo-zalo.png" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p>&copy; 2022 FoodCode</p>
+        </div>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
