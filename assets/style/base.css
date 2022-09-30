@@ -60,5 +60,5 @@ html {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: var(--orange);
+    background: var(--dark-blue);
 }
