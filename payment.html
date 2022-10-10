@@ -215,7 +215,7 @@
                             </div>
                             <div class="fee-detail__space-between">
                                 <h6>Phí áp dụng</h6>
-                                <h6>18.000</h6>
+                                <h6>18.000 <span>đ</span></h6>
                             </div>
                         </div>
                     </div>
@@ -228,46 +228,62 @@
                     <div class="pay">
                         <div class="pay-item">
                             <div>
-                                <input type="radio" checked name="pay"> 
+                                <input type="radio" id="cash" checked name="pay"> 
                             </div>
                             <div>
-                                <img src="./assets/img/logo/cash.png" alt="">
+                                <label for="cash">
+                                    <img src="./assets/img/logo/cash.png" alt="">
+                                </label>
                             </div>
                             <div>
-                                <h4>Tiền mặt</h4>
-                            </div>
-                        </div>
-                        <div class="pay-item">
-                            <div>
-                                <input type="radio" name="pay"> 
-                            </div>
-                            <div>
-                                <img src="./assets/img/logo/cod.png" alt="">
-                            </div>
-                            <div>
-                                <h4>COD</h4>
+                                <label for="cash">
+                                    <h4>Tiền mặt</h4>
+                                </label>
                             </div>
                         </div>
                         <div class="pay-item">
                             <div>
-                                <input type="radio" name="pay"> 
+                                <input id="cod" type="radio" name="pay"> 
                             </div>
                             <div>
-                                <img src="./assets/img/logo/zalopay.webp" alt="">
+                                <label for="cod">
+                                    <img src="./assets/img/logo/cod.png" alt="">
+                                </label>
                             </div>
                             <div>
-                                <h4>Zalo Pay</h4>
+                                <label for="cod">
+                                    <h4>COD</h4>
+                                </label>
                             </div>
                         </div>
                         <div class="pay-item">
                             <div>
-                                <input type="radio" name="pay"> 
+                                <input id="zalo-pay" type="radio" name="pay"> 
                             </div>
                             <div>
-                                <img src="./assets/img/logo/debit.png" alt="">
+                                <label for="zalo-pay">
+                                    <img src="./assets/img/logo/zalopay.webp" alt="">
+                                </label>
                             </div>
                             <div>
-                                <h4>Thẻ tín dụng hoặc ghi nợ</h4>
+                                <label for="zalo-pay">
+                                    <h4>Zalo Pay</h4>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="pay-item">
+                            <div>
+                                <input id="debit" type="radio" name="pay"> 
+                            </div>
+                            <div>
+                                <label for="debit">
+                                    <img src="./assets/img/logo/debit.png" alt="">
+                                </label>
+                            </div>
+                            <div>
+                                <label for="debit">
+                                    <h4>Thẻ tín dụng hoặc ghi nợ</h4>
+                                </label>
                             </div>
                         </div>
                     </div>
@@ -289,7 +305,7 @@
                 <div class="footer-left">
                     <h5>Tổng cộng</h5>
                     <div class="total-price">
-                        <h4>156.000 <span class="span-underline">đ</span> <span class="sale-down">168.000<span class="span-underline">đ</span></span></h4>
+                        <h4>156.000 <span class="span-underline">đ</span> <span class="sale-down">168.000 <span class="span-underline">đ</span></span></h4>
                     </div>
                 </div>
                 <button class="btn">Đặt hàng</button>

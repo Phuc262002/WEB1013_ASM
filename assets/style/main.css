@@ -1071,7 +1071,7 @@ form {
 	flex-direction: column;
 	background: #fff;
 	position: relative;
-	border-top: 1px solid var(--dark-blue);
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px 0px inset;
 	background-color: #fff;
 }
 
@@ -1106,6 +1106,10 @@ form {
 	padding: 0;
 	list-style: none;
 	width: 100%;
+}
+
+.payment label {
+	cursor: pointer;
 }
 
 .form-item {
@@ -1344,6 +1348,7 @@ form {
 	font-weight: 500;
 	color: var(--text-cart);
 	text-decoration: line-through;
+	margin-left: 5px;
 }
 
 .payment-footer .footer .btn {
@@ -1407,7 +1412,7 @@ form {
 	border-radius: 5px;
 }
 
-input:focus {
+.payment input:focus {
 	border: 1px solid var(--orange);
 	box-shadow: 0 0 2px var(--orange);
 }
@@ -1432,15 +1437,16 @@ input:focus {
 	border-color: #f0efef;
 }
 
-.voucher input:focus + .btn.disable {
+.voucher input:focus+.btn.disable {
 	background-color: var(--orange) !important;
 	color: #fff;
 	cursor: pointer;
 }
 
-.voucher input:focus + .btn.disable:hover {
+.voucher input:focus+.btn.disable:hover {
 	background-color: var(--dark-blue) !important;
 	color: #fff;
 	cursor: pointer;
 	letter-spacing: .1rem
 }
+
