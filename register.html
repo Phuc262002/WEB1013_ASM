@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>FoodCode Login</title>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;900&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;900&display=swap"
+		rel="stylesheet">
 	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="./assets/style/main.css">
 	<link rel="stylesheet" href="./assets/style/base.css">
 </head>
+
 <body>
 	<div class="container-login">
 		<div class="img">
@@ -21,47 +24,54 @@
 			<form action="index.html">
 				<img src="./assets/img/login/register.svg">
 				<h2 class="title">Đăng kí</h2>
-           		<div class="input-div one">
-           		   <div class="icons">
-                        <i class="fas fa-phone"></i>
-           		   </div>
-           		   <div class="form-input">
-           		   		<h5>Số điện thoại</h5>
-           		   		<input type="number" class="input">
-           		   </div>
-           		</div>
-                   <div class="input-div one">
-                    <div class="icons">
-                            <i class="fas fa-user"></i>
-                    </div>
-                    <div class="form-input">
-                            <h5>Email</h5>
-                            <input type="email" class="input">
-                    </div>
-                 </div>
-           		<div class="input-div pass">
-           		   <div class="icons"> 
-           		    	<i class="fas fa-lock"></i>
-           		   </div>
-           		   <div class="form-input">
-           		    	<h5>Mật khẩu</h5>
-           		    	<input type="password" class="input">
-            	   </div>
-            	</div>
-                <div class="input-div pass">
-                    <div class="icons"> 
-                        <i class="fas fa-check-double"></i>
-                    </div>
-                    <div class="form-input">
-                         <h5>Nhập lại mật khẩu</h5>
-                         <input type="password" class="input">
-                 </div>
-              </div>
+				<div class="input-div one">
+					<div class="icons">
+						<i class="fas fa-phone"></i>
+					</div>
+					<div class="form-input">
+						<h5>Số điện thoại</h5>
+						<input type="number" class="input">
+					</div>
+				</div>
+				<div class="input-div one">
+					<div class="icons">
+						<i class="fas fa-user"></i>
+					</div>
+					<div class="form-input">
+						<h5>Email</h5>
+						<input type="email" class="input">
+					</div>
+				</div>
+				<div class="input-div pass">
+					<div class="icons">
+						<i class="fas fa-lock"></i>
+					</div>
+					<div class="form-input">
+						<h5>Mật khẩu</h5>
+						<input type="password" class="input">
+					</div>
+				</div>
+				<div class="input-div pass">
+					<div class="icons">
+						<i class="fas fa-check-double"></i>
+					</div>
+					<div class="form-input">
+						<h5>Nhập lại mật khẩu</h5>
+						<input type="password" class="input">
+					</div>
+				</div>
 				<a class="non-passwd" href="login.html">Đã có tài khoản.</a>
-            	<input type="submit" class="btn-login" value="Đăng kí">
-            </form>
-        </div>
-    </div>
-    <script type="text/javascript" src="./assets/js/main.js"></script>
+				<input type="submit" class="btn-login" value="Đăng kí">
+				<div class="fb-login-button" data-width="360px" data-size="large" data-button-type="continue_with"
+					data-layout="default" data-auto-logout-link="false" data-use-continue-as="false"></div>
+			</form>
+		</div>
+	</div>
+	<script type="text/javascript" src="./assets/js/main.js"></script>
+	<div id="fb-root"></div>
+	<script async defer crossorigin="anonymous"
+		src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v15.0&appId=1276140149854003&autoLogAppEvents=1"
+		nonce="DO7OrZAQ"></script>
 </body>
+
 </html>
