@@ -208,6 +208,7 @@ header {
 	grid-template-columns: repeat(2, 1fr);
 	grid-gap: 7rem;
 	padding: 0 2rem;
+	align-items: center;
 }
 
 .img-banner {
@@ -349,6 +350,13 @@ form {
 
 .non-passwd:hover {
 	color: var(--orange);
+}
+
+.other-login {
+	font-size: 1.7rem;
+	font-weight: 400;
+	margin: 20px 0;
+	color: var(--menu-text);
 }
 
 .btn-login {
